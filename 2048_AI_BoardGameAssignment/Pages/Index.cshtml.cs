@@ -10,6 +10,7 @@ namespace _2048_AI_BoardGameAssignment.Pages
 {
     public class IndexModel : PageModel
     {
+
         private readonly ILogger<IndexModel> _logger;
 
         public IndexModel(ILogger<IndexModel> logger)
@@ -17,9 +18,6 @@ namespace _2048_AI_BoardGameAssignment.Pages
             _logger = logger;
         }
 
-        public void OnGet()
-        {
-
-        }
+        
     }
 }
